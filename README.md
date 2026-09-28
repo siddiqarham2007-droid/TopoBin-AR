@@ -4,7 +4,7 @@ SIH26112 — Intelligent Modular AMR/AGV Platform for Smart and Efficient Wareho
 
 ## Current status
 
-No physical hardware has been built yet. This repository currently contains the
+As our physical hardware has not  been completed  yet. This repository currently contains the
 **navigation logic** — the topological graph, A* path planning, and the
 finite-state machine that ties planning, localization, and obstacle handling
 together — fully implemented and testable via the Arduino Serial Monitor.
