@@ -5,7 +5,8 @@
 #define INF 999999.0
 
 
-// A* Search oVer the topoLogical graph.
+// A* Search oVer the topoLogical graph -WE have used A* algorithm to find the shortest distance btw two nodes 
+// this file contains the logic of A* alfgorithm like how our system will find its path
 
 
 // Euclideaan-distance heuristic between two nodes. Requires nodeX[]/nodeY[]
