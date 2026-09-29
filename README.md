@@ -4,10 +4,7 @@ SIH26112 — Intelligent Modular AMR/AGV Platform for Smart and Efficient Wareho
 
 ## Current status
 
-As our physical hardware has not  been completed  yet. This repository currently contains the
-**navigation logic** — the topological graph, A* path planning, and the
-finite-state machine that ties planning, localization, and obstacle handling
-together — fully implemented and testable via the Arduino Serial Monitor.
+Hardware development is currently underway in parallel with our software suite. This repository hosts the core navigation and control model—integrating our topological graph, A* path planning, and a unified finite-state machine for localization and obstacle handling. The entire system model is fully operational, actively simulated, and verifiable via the Arduino Serial Monitor.
 
 Sensor and motor I/O (`sensors_stub.h`) is intentionally **stubbed with TODOs**.
 This is a deliberate design choice: the FSM's control logic is hardware-agnostic,
